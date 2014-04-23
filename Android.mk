@@ -12,7 +12,7 @@ ifeq ($(BOARD_VOLD_DISC_HAS_MULTIPLE_MAJORS), true)
 common_cflags += -DVOLD_DISC_HAS_MULTIPLE_MAJORS
 endif
 
-common_cflags += -Werror
+#common_cflags += -Werror
 
 common_src_files := \
 	VolumeManager.cpp \
